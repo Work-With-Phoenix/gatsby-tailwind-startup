@@ -15,7 +15,7 @@
 
     ```shell
     # clone the gatsby & tailwind project startup repository
-    git clone https://github.com/Work-With-Phoenix/gatsby-tailwind-startup.git
+    git clone -b main https://github.com/Work-With-Phoenix/gatsby-tailwind-startup
     ```
 
 2.  **Start developing.**
