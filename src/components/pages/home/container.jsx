@@ -21,8 +21,8 @@ const Container = () => {
               <h1 className="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">You got started.</h1>
               <p className="mt-2 text-base text-gray-500">Your Gatsby & Tailwind  are now in sync.</p>
               <div className="mt-6">
-                <Link to={"#"} className="text-base font-medium text-indigo-600 hover:text-indigo-500 flex space-x-2">
-                  <span>Playground</span>
+                <Link to={"#"} target={"_blank"} className="text-base font-medium text-indigo-600 hover:text-indigo-500 flex space-x-2">
+                  <span>Documentation</span>
                   <span><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span>
                 </Link>
               </div>
@@ -31,17 +31,17 @@ const Container = () => {
         </main>
         <footer className="flex-shrink-0 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex justify-center space-x-4">
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
-              Contact Support
-            </a>
+          <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
+              Community
+            </Link>
             <span className="inline-block border-l border-gray-300" aria-hidden="true" />
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
-              Status
-            </a>
+            <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
+              Tutorials
+            </Link>
             <span className="inline-block border-l border-gray-300" aria-hidden="true" />
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
+            <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
               Resources
-            </a>
+            </Link>
           </nav>
         </footer>
       </div>
