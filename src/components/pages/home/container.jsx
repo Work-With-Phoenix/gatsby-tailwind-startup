@@ -21,8 +21,8 @@ const Container = () => {
               <h1 className="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">You got started.</h1>
               <p className="mt-2 text-base text-gray-500">Your Gatsby & Tailwind  are now in sync.</p>
               <div className="mt-6">
-                <Link to={"#"} className="text-base font-medium text-indigo-600 hover:text-indigo-500 flex space-x-2">
-                  <span>Playground</span>
+                <Link to={"#"} target={"_blank"} className="text-base font-medium text-indigo-600 hover:text-indigo-500 flex space-x-2">
+                  <span>Documentation</span>
                   <span><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span>
                 </Link>
               </div>
