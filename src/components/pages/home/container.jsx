@@ -31,17 +31,17 @@ const Container = () => {
         </main>
         <footer className="flex-shrink-0 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex justify-center space-x-4">
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
-              Contact Support
-            </a>
+          <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
+              Support
+            </Link>
             <span className="inline-block border-l border-gray-300" aria-hidden="true" />
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
-              Status
-            </a>
+            <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
+              Tutorials
+            </Link>
             <span className="inline-block border-l border-gray-300" aria-hidden="true" />
-            <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-600">
+            <Link to={"#"} target={"_blank"} className="text-sm font-medium text-gray-500 hover:text-gray-600">
               Resources
-            </a>
+            </Link>
           </nav>
         </footer>
       </div>
