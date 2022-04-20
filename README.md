@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby & Tailwind" src="./src/images/phoenix-logo.svg" width="60" />
+    <img alt="Gatsby & Tailwind" src="./src/images/phoenix-logo.svg" width="60" style="margin-top: .8rem"/>
   </a>
 </p>
 <h1 align="center">
