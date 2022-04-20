@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+  <a href="#">
     <img alt="Gatsby & Tailwind" src="./src/images/phoenix-logo.svg" width="60" style="margin-top: .8rem"/>
   </a>
 </p>
@@ -11,7 +11,7 @@
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Clone the project repository to get access to the startup directory.
 
     ```shell
     # clone the gatsby & tailwind project startup repository
@@ -24,6 +24,7 @@
 
     ```shell
     cd gatsby-tailwind-startup/
+    npm install
     gastby develop
     ```
 
