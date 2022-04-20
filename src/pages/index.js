@@ -1,14 +1,13 @@
 import * as React from 'react'
 import Layout from '../components/constant/layout'
+import Container from '../components/pages/home/container'
 
 
 
 const Index = () => {
   return(
     <Layout>
-      <div className={"w-full bg-red-200"}>
-        content goes here
-      </div>
+      <Container />
     </Layout>
   )
 }
