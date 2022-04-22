@@ -23,8 +23,16 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd gatsby-tailwind-startup/
+    #copy it to a project dir of your choice
+    cp -r gatsby-tailwind-startup my-project
+
+    #go to the new directory
+    cd my-project
+
+    #install packages
     npm install
+
+    #run server
     gastby develop
     ```
 
